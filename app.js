@@ -4,6 +4,11 @@ const app = express();
 const port = 3000;
 const {data} = require('./data/data.json');
 
+// MIDDLEWARE
+app.use(express.static('public'))
+
+
+// ROUTES
 app.get('/', (req,res) => {
     res.send("My Portfolio");
 });
