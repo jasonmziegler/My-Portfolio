@@ -1,0 +1,14 @@
+{
+    "project": [
+     
+       {
+          "id":"0",
+          "project_name": "Quote Generator",
+          "description": "This is a project.",
+          "technologies": ["JavaScript", "Node", "Express"],
+          "live_link": "http://live.link",
+          "github_link": "http://github.link",
+          "image_urls": ["http://image1.url", "http://image2.url"]
+       }
+    ]
+ }
