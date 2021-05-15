@@ -5,7 +5,7 @@ const port = 3000;
 const {data} = require('./data/data.json');
 
 // MIDDLEWARE
-app.use(express.static('public'))
+app.use('/static', express.static('public'))
 
 
 // ROUTES
