@@ -1,14 +1,62 @@
 {
-    "project": [
-     
-       {
-          "id":"0",
-          "project_name": "Quote Generator",
-          "description": "This is a project.",
-          "technologies": ["JavaScript", "Node", "Express"],
-          "live_link": "http://live.link",
-          "github_link": "http://github.link",
-          "image_urls": ["http://image1.url", "http://image2.url"]
-       }
-    ]
+    "data": {
+        "developer": {
+            "portfolio_title": "My Portfolio or: How I Learned to Stop Worrying and Love to Code",
+            "portfolio_description": "Thanks for your time. Please enjoy my portfolio. I have selected the following projects to show you a taste of who I am and what I can accomplish.",
+            "dev_name": "Jason M Ziegler",
+            "dev_title": "Full Stack JavaScript Developer",
+            "dev_skills": ["HTML", "CSS", "JavaScript", "Git and GitHub", "VS Code", "Accessibility", "OOP", "Fetch and Public APIs", "Node.js", "Express", "Pug"],
+            "dev_info": "Loving husband and father of two beautiful children. A junior Full-Stack Javascript who loves nature and technology.",
+            "dev_bio": "Hi, I'm Jason, thanks for viewing my personal portfolio. I'm a JavaScript Full-Stack developer who specializes in Node and Express apps. I have studied at Treehouse and Udemy. I am most interested in working with startups and am looking for opportunities that are more focused on helping people improve their productivity and relationships.",
+            "dev_phone": "512-698-6854",
+            "dev_email": "hello@jasonmziegler.tech"
+        }, 
+        "projects": [
+            {
+                "id": 0,
+                "project_name": "Quote Generator",
+                "description": "This is a project.",
+                "technologies": ["JavaScript", "HTML", "CSS"],
+                "live_link": "http://live.link",
+                "github_link": "http://github.link",
+                "image_urls": ["https://via.placeholder.com/1200x500.png", "https://via.placeholder.com/1200x500.png"]
+            },
+            {
+                "id": 1,
+                "project_name": "Quote Generator",
+                "description": "This is a project.",
+                "technologies": ["JavaScript", "HTML", "CSS"],
+                "live_link": "http://live.link",
+                "github_link": "http://github.link",
+                "image_urls": ["https://via.placeholder.com/1200x500.png", "https://via.placeholder.com/1200x500.png"]
+            },
+            {
+                "id": 2,
+                "project_name": "Quote Generator",
+                "description": "This is a project.",
+                "technologies": ["JavaScript", "HTML", "CSS"],
+                "live_link": "http://live.link",
+                "github_link": "http://github.link",
+                "image_urls": ["https://via.placeholder.com/1200x500.png", "https://via.placeholder.com/1200x500.png"]
+            },
+            {
+                "id": 3,
+                "project_name": "Quote Generator",
+                "description": "This is a project.",
+                "technologies": ["JavaScript", "HTML", "CSS"],
+                "live_link": "http://live.link",
+                "github_link": "http://github.link",
+                "image_urls": ["https://via.placeholder.com/1200x500.png", "https://via.placeholder.com/1200x500.png"]
+            },
+            {
+                "id": 4,
+                "project_name": "Quote Generator",
+                "description": "This is a project.",
+                "technologies": ["JavaScript", "HTML", "CSS"],
+                "live_link": "http://live.link",
+                "github_link": "http://github.link",
+                "image_urls": ["https://via.placeholder.com/1200x500.png", "https://via.placeholder.com/1200x500.png"]
+            }
+        ]
+    }
  }
