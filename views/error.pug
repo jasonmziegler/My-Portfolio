@@ -9,10 +9,10 @@ block content
   article
     .inner-wrapper.flex-row-wrap.one-col
       .box
-        h1= 'Something went wrong...' 
+        h1= 'Oops, something went wrong...' 
         h2= error.message 
         h3= error.status 
-        pre= error.stack 
+        //-pre= error.stack 
 
     nav.nav
       a(href='/')

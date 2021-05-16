@@ -34,7 +34,7 @@ app.get('/project/:id', (req, res, next) => {
     if (project) {
         res.render('project', {project});
     } else {
-        const err = new Error('Invalid Project ID Parameter');
+        const err = new Error('That project does not exist.');
         err.status = 500;
         next(err);
     }
