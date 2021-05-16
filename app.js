@@ -24,13 +24,20 @@ app.get('/about', (req, res) => {
     res.render('about');
 });
 
-app.get('/project/:id', (req, res) => {
+app.get('/project/:id', (req, res, next) => {
     const projectId = req.params.id;
     //console.log(id);
     //console.log(projects);
+    
     const project = projects.find(({id}) => id === +projectId);
     //console.log("The Project: ", project);
-    res.render('project', {project});
+    if (project) {
+        res.render('project', {project});
+    } else {
+        const err = new Error('Invalid Project ID Parameter');
+        err.status = 500;
+        next(err);
+    }
 });
 
 // MIDDLEWARE
