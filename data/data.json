@@ -14,48 +14,48 @@
         "projects": [
             {
                 "id": 0,
-                "project_name": "Quote Generator",
-                "description": "This is a project.",
+                "project_name": "Random Quote Generator",
+                "description": "This program will display a random quote on a webpage and update periodically",
                 "technologies": ["JavaScript", "HTML", "CSS"],
-                "live_link": "http://live.link",
-                "github_link": "http://github.link",
-                "image_urls": ["https://via.placeholder.com/1200x500.png", "https://via.placeholder.com/1200x500.png"]
+                "live_link": "http://jasonmziegler.tech/projects/random-quote-generator/",
+                "github_link": "https://github.com/jasonmziegler/Random-Quote-Generator",
+                "image_urls": ["/static/img/random-quote-generator1.png"]
             },
             {
                 "id": 1,
-                "project_name": "Quote Generator",
-                "description": "This is a project.",
+                "project_name": "Student Directory",
+                "description": "This app will include a directory of students that is searchable and includes pagination.",
                 "technologies": ["JavaScript", "HTML", "CSS"],
-                "live_link": "http://live.link",
-                "github_link": "http://github.link",
-                "image_urls": ["https://via.placeholder.com/1200x500.png", "https://via.placeholder.com/1200x500.png"]
+                "live_link": "http://jasonmziegler.tech/projects/student-directory/",
+                "github_link": "https://github.com/jasonmziegler/Student-Directory",
+                "image_urls": ["/static/img/student-directory1.png", "/static/img/student-directory2.png"]
             },
             {
                 "id": 2,
-                "project_name": "Quote Generator",
-                "description": "This is a project.",
+                "project_name": "Interactive Form",
+                "description": "This is an interactive form with input validation.",
                 "technologies": ["JavaScript", "HTML", "CSS"],
-                "live_link": "http://live.link",
-                "github_link": "http://github.link",
-                "image_urls": ["https://via.placeholder.com/1200x500.png", "https://via.placeholder.com/1200x500.png"]
+                "live_link": "http://jasonmziegler.tech/projects/interactive-form/",
+                "github_link": "https://github.com/jasonmziegler/Interactive-Form",
+                "image_urls": ["/static/img/interactive-form1.png", "/static/img/interactive-form2.png"]
             },
             {
                 "id": 3,
-                "project_name": "Quote Generator",
-                "description": "This is a project.",
+                "project_name": "Phrase Guessing Game",
+                "description": "Guess the phrase by guessing letters until you get the phrase or lives run out.",
                 "technologies": ["JavaScript", "HTML", "CSS"],
-                "live_link": "http://live.link",
-                "github_link": "http://github.link",
-                "image_urls": ["https://via.placeholder.com/1200x500.png", "https://via.placeholder.com/1200x500.png"]
+                "live_link": "http://jasonmziegler.tech/projects/phrase-guessing-game/",
+                "github_link": "https://github.com/jasonmziegler/Phrase-Guessing-Game",
+                "image_urls": ["/static/img/phrase-guessing-game0.png", "/static/img/phrase-guessing-game1.png", "/static/img/phrase-guessing-game2.png"]
             },
             {
                 "id": 4,
-                "project_name": "Quote Generator",
-                "description": "This is a project.",
+                "project_name": "Employee Directory",
+                "description": "An interactive Employee directory working with asynchronous code and public api requests.",
                 "technologies": ["JavaScript", "HTML", "CSS"],
-                "live_link": "http://live.link",
-                "github_link": "http://github.link",
-                "image_urls": ["https://via.placeholder.com/1200x500.png", "https://via.placeholder.com/1200x500.png"]
+                "live_link": "http://jasonmziegler.tech/projects/employee-directory/",
+                "github_link": "https://github.com/jasonmziegler/Employee-Directory",
+                "image_urls": ["/static/img/employee-directory1.png", "/static/img/employee-directory2.png"]
             }
         ]
     }
