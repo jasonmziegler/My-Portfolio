@@ -34,8 +34,10 @@ app.get('/project/:id', (req, res, next) => {
     if (project) {
         res.render('project', {project});
     } else {
-        const err = new Error('That project does not exist.');
+        const message = 'That project does not exist.'
+        const err = new Error(message);
         err.status = 500;
+        console.log(`Error Status ${err.status} - ${message}`);
         next(err);
     }
 });
@@ -43,8 +45,10 @@ app.get('/project/:id', (req, res, next) => {
 // MIDDLEWARE
 // 404
 app.use((req, res, next) => {
-    const err = new Error('Not Found');
+    const message = 'The requested page does not exist or has been moved.';
+    const err = new Error(message);
     err.status = 404;
+    console.log(`Error Status ${err.status} - ${message}`);
     next(err);
 });
 
